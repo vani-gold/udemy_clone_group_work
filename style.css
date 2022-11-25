@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(68, 64, 64);
+    }
+    
+    body {
+        background-color: rgb(253, 253, 253);
+        color: rgb(5, 5, 5);
+        font-family: "Poppins", sans-serif;
+      }
+    /* NAV BAR */
+    .nav_flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    .button_flex{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .input_div{
+        width: 35%;
+        height: 40px;
+        border-radius: 20px;
+        padding-left: 10px;
+    }
+    .input_search{
+        width: 93%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    
+    /*  Categort drop down*/
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+      
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 300px;
+        background-color: rgb(251, 251, 251);
+        color: rgb(1, 1, 1);
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: 20px;
+        left: 0%;
+      }
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
+    /*  sub Categort drop down*/
+    .sub__tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+      
+      .sub__tooltip .sub__tooltiptext {
+        visibility: hidden;
+        width: 300px;
+        background-color: rgb(251, 251, 251);
+        color: rgb(1, 1, 1);
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 100%;
+      }
+      .sub__tooltip:hover .sub__tooltiptext {
+        visibility: visible;
+      }
+    
+    ul{
+        list-style: none;
+    }
+    a{
+        padding-right: 90px;
+        color: black;
+        text-decoration: none;
+    }
+    /* .parent_ul{
+        position: fixed;
+    
+    } */
+    .first_child_ul{
+        position: fixed;
+       top: 5px;
+    }
+    
